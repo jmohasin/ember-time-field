@@ -5,7 +5,7 @@ import UnfocusedState from './unfocused';
 import FocusedState from './focused';
 
 export default StateManager.extend({
-  initialState: 'unfocused',
-  unfocused: state(UnfocusedState),
-  focused:  state(FocusedState)
+    initialState: 'unfocused',
+    unfocused: state(UnfocusedState),
+    focused: state(FocusedState)
 });
