@@ -2,7 +2,17 @@
 
 Time field input, like Chrome's, with keyboard navigation within sections.
 
+
+## Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v3.12 or above
+* Ember CLI v3.12 or above
+* Node.js v8 or above
+
+
 ## Installation
+------------------------------------------------------------------------------
 
 ```
 ember install ember-time-field

@@ -295,8 +295,8 @@ export default Component.extend({
     this.get("element").value = value;
 
     // trigger standard events in-case anything else is listening
-    this.$().trigger("input");
-    this.$().trigger("change");
+    this.trigger('input');
+    this.trigger('change');
   }
 
 });
